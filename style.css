@@ -1,0 +1,119 @@
+body{
+    background-color:#F0F3EF;
+}
+.box{
+    width:550px;
+    height:500px;
+    margin:100px 30%;
+    background-color: #FFFFFF;
+    position:absolute;
+
+}
+.save_img{
+    width:91%;
+    height:60%;
+    margin:auto;
+    position:absolute;
+    cursor: pointer;
+    left:4.5%;
+    top:8%;
+}
+.save_img img{
+    position:absolute;
+    width:100%;
+    height:100%;
+}
+.save_img img:nth-child(1){
+    z-index: 3;
+}
+.save_img img:nth-child(2){
+    z-index: 2;
+}
+.save_img img:nth-child(3){
+    z-index: 1;
+}
+.box  .imgs_btn1{
+    height:50px;
+    width:24px;
+    background-color:rgba(102, 99, 99, 0.5);
+    z-index: 4;
+    position:absolute;
+    cursor: pointer;
+    top:40%;   
+}
+.box .imgs_btn1:hover{
+    background-color:rgba(46, 44, 44, 0.5);
+}
+.box .imgs_btn2{
+    height:50px;
+    width:24px;
+    background-color:rgba(78, 77, 77, 0.5);
+    z-index: 4;
+    cursor: pointer;
+    position:absolute;
+    top:40%; 
+    right:0;
+}
+.box  .imgs_btn2:hover{
+    background-color:rgba(46, 44, 44, 0.5);
+}
+.glyphicon{
+    font-size: 25px;
+    color:rgba(240, 235, 235, 0.5);
+    padding: 0px;
+    margin:0px;
+}
+.box .imgs_btn1 span{
+    margin-left:0px;
+    padding: 0px;
+    position:absolute;
+    top:20%;
+}
+.box .imgs_btn2 span{
+    margin-right:0px;
+    padding: 0px;
+    position:absolute;
+    top:20%;
+}
+.box .btn_box{
+    position:absolute;
+    top:95%;
+    left:40%;
+    z-index:4;
+}
+.box .btn_box .btns{
+    width: 12px;
+    height: 12px;
+    position: absolute;
+    border-radius: 50%;
+    border:2px solid rgb(116, 113, 113);
+    background-color: #FFFFFF;
+    top:5px;
+    left:12px;
+}
+.box .btn_box .btns:nth-child(1){
+    border:none;
+    background-color:#EB3436;
+    box-shadow: 0px 0px 10px rgb(235, 78, 78);
+}
+.box .btn_box .btns + .btns{
+    left: 39px;
+    
+}
+.box .btn_box .btns + .btns + .btns{
+    left: 66px;
+    
+}
+.text_shuoming{
+    position:absolute;
+    width:500px;
+    height:100px;
+    border:1px solid red;
+    top:70%;
+    left:4.5%;
+}
+.clearfix:after{   
+    content: " ";
+    display: table;
+    clear: both;
+}
